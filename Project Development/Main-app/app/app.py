@@ -20,7 +20,7 @@ st.title('LipReader  WebApp')
 
 
 # Generating a list of options or videos 
-options = os.listdir(os.path.join('/Users/jewel/Downloads/LipNet-main/data/s1'))
+options = os.listdir(os.path.join('/Users/jewel/Downloads/Main-app/data/s1'))
 selected_video = st.selectbox('Available Videos', options)
 
 
