@@ -27,6 +27,6 @@ def load_model() -> Sequential:
 
     model.add(Dense(41, kernel_initializer='he_normal', activation='softmax'))
 
-    model.load_weights('/Users/jewel/Downloads/LipNet-main/models/checkpoint')
+    model.load_weights('/Users/jewel/Downloads/Main-app/models/checkpoint')
 
     return model
